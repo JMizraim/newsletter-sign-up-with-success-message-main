@@ -90,7 +90,7 @@ body {
 }
 
 .newsletter__image {
-  background-image: url("/assets/images/illustration-sign-up-mobile.svg");
+  background-image: url("../assets/images/illustration-sign-up-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 2rem;
@@ -99,7 +99,7 @@ body {
   width: 100%;
   @media screen and (min-width: 768px) {
     border-radius: 2.5rem;
-    background-image: url("/assets/images/illustration-sign-up-desktop.svg");
+    background-image: url("../assets/images/illustration-sign-up-desktop.svg");
     background-position: center;
     height: 100%;
     grid-column: 2 / 3;
@@ -133,7 +133,7 @@ body {
   & li {
     margin: 1.4rem 0;
     & ::before {
-      background-image: url("/assets/images/icon-list.svg");
+      background-image: url("../assets/images/icon-list.svg");
       background-repeat: no-repeat;
       background-size: cover;
       content: "";
@@ -206,7 +206,7 @@ body {
   &::before {
     content: "";
     display: block;
-    background-image: url("/assets/images/icon-success.svg");
+    background-image: url("../assets/images/icon-success.svg");
     background-repeat: no-repeat;
     height: 9.5rem;
     width: 9.5rem;
